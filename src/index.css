@@ -7,9 +7,9 @@
   --color-card-cyan: hsl(180, 62%, 55%);
   --color-card-orange: hsl(34, 97%, 64%);
   --color-card-blue: hsl(212, 86%, 64%);
-  --color-text-grey-500: hsl(234, 12%, 34%);
-  --color-text-grey-400: hsl(212, 6%, 44%);
-  --color-white: hsl(0, 0%, 100%);
+  --color-card-grey-500: hsl(234, 12%, 34%);
+  --color-card-grey-400: hsl(212, 6%, 44%);
+  --color-card-white: hsl(0, 0%, 100%);
   --font-card-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
   --spacing-card-50: 4px;
   --spacing-card-100: 8px;
@@ -27,8 +27,24 @@
 
 @utility text-preset-1 {
   font-family: var(--font-card-poppins);
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-2 {
+  font-family: var(--font-card-poppins);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-3 {
+  font-family: var(--font-card-poppins);
+  font-weight: 600;
+  font-size: 15px;
   line-height: 100%;
   letter-spacing: 0px;
 }
