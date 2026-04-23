@@ -10,18 +10,21 @@
   --color-card-grey-500: hsl(234, 12%, 34%);
   --color-card-grey-400: hsl(212, 6%, 44%);
   --color-card-white: hsl(0, 0%, 100%);
+  --color-card-snow: hsl(0, 0%, 98%);
   --font-card-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
-  --spacing-card-50: 4px;
   --spacing-card-100: 8px;
   --spacing-card-200: 16px;
   --spacing-card-300: 24px;
   --spacing-card-400: 32px;
   --spacing-card-500: 40px;
+  --spacing-card-1600: 80px;
 }
 
 @layer base {
   body {
-    background-color: var(--color-card-blue);
+    background-color: var(--color-card-snow);
+    font-family: var(--font-card-poppins);
+    font-size: 15px;
   }
 }
 
