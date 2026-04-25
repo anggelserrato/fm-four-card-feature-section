@@ -23,6 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
+<img width="1920" height="1440" alt="four card feature section shots" src="https://github.com/user-attachments/assets/f1041df3-34bd-4e9b-8ef7-f11a15df2f32" />
+
 ### Links
 
 - Solution URL: [View Code](https://github.com/anggelserrato/fm-four-card-feature-section)
