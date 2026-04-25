@@ -17,34 +17,39 @@
   --spacing-card-300: 24px;
   --spacing-card-400: 32px;
   --spacing-card-500: 40px;
+  --spacing-card-1600: 80px;
 }
 
 @layer base {
   body {
     background-color: var(--color-card-snow);
     font-family: var(--font-card-poppins);
-    font-size: 15px;
   }
 }
 
 @utility text-preset-1 {
-  font-family: var(--font-card-poppins);
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 140%;
   letter-spacing: 0.25px;
+
+  @variant md {
+    font-size: 36px;
+  }
 }
 
 @utility text-preset-2 {
-  font-family: var(--font-card-poppins);
   font-weight: 200;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 140%;
   letter-spacing: 0.25px;
+
+  @variant md {
+    font-size: 36px;
+  }
 }
 
 @utility text-preset-3 {
-  font-family: var(--font-card-poppins);
   font-weight: 600;
   font-size: 20px;
   line-height: 135%;
@@ -52,7 +57,6 @@
 }
 
 @utility text-preset-4 {
-  font-family: var(--font-card-poppins);
   font-weight: 400;
   font-size: 15px;
   line-height: 140%;
@@ -60,7 +64,6 @@
 }
 
 @utility text-preset-5 {
-  font-family: var(--font-card-poppins);
   font-weight: 400;
   font-size: 13px;
   line-height: 160%;
