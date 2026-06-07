@@ -46,7 +46,7 @@ const cards = [
 
 function FourCardSection() {
   return (
-    <main className="flex min-h-screen items-center justify-center px-6 py-[50px] md:px-0 md:py-card-1600">
+    <main className="md:py-card-1600 flex min-h-screen items-center justify-center px-6 py-[50px] md:px-0">
       <section className="flex w-full max-w-85 flex-col items-center gap-15 md:max-w-[660px] md:gap-[74px] xl:max-w-[1114px]">
         <header className="flex flex-col text-center md:w-[540px]">
           <p className="text-preset-2 text-card-grey-500">

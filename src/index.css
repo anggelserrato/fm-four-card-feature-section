@@ -1,5 +1,29 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./fonts/poppins-v24-latin-200.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/poppins-v24-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/poppins-v24-latin-600.woff2') format('woff2');
+}
+
 @theme {
   --color-card-grey-500: hsl(234, 12%, 34%);
   --color-card-grey-400: hsl(212, 6%, 44%);
@@ -9,61 +33,62 @@
   --color-card-blue: hsl(212, 86%, 64%);
   --color-card-orange: hsl(34, 97%, 64%);
   --color-card-snow: hsl(0, 0%, 98%);
-  --font-card-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
-  --spacing-card-100: 8px;
-  --spacing-card-200: 16px;
-  --spacing-card-300: 24px;
-  --spacing-card-400: 32px;
-  --spacing-card-500: 40px;
-  --spacing-card-1600: 80px;
+  --font-sans:
+    'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --spacing-card-100: 0.5rem;
+  --spacing-card-200: 1rem;
+  --spacing-card-300: 1.5rem;
+  --spacing-card-400: 2rem;
+  --spacing-card-500: 2.5rem;
+  --spacing-card-1600: 5rem;
 }
 
 @layer base {
   body {
     background-color: var(--color-card-snow);
-    font-family: var(--font-card-poppins);
   }
 }
 
 @utility text-preset-1 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 1.5rem;
+  line-height: 1.4;
   letter-spacing: 0.25px;
 
   @variant md {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
 
 @utility text-preset-2 {
   font-weight: 200;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 1.5rem;
+  line-height: 1.4;
   letter-spacing: 0.25px;
 
   @variant md {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
 
 @utility text-preset-3 {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 135%;
+  font-size: 1.25rem;
+  line-height: 1.35;
   letter-spacing: 0px;
 }
 
 @utility text-preset-4 {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 140%;
+  font-size: 0.938rem;
+  line-height: 1.4;
   letter-spacing: 0px;
 }
 
 @utility text-preset-5 {
   font-weight: 400;
-  font-size: 13px;
-  line-height: 160%;
+  font-size: 0.813rem;
+  line-height: 1.6;
   letter-spacing: 0px;
 }
