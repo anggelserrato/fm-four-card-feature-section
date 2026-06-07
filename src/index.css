@@ -45,6 +45,10 @@
 }
 
 @layer base {
+  html {
+    @apply antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   body {
     background-color: var(--color-card-snow);
   }
